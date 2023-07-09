@@ -1,0 +1,37 @@
+
+p{
+    line-height: 1.45em;
+}
+#lienhe li::before{
+    content: '◘';
+}
+.thongtinlienhe{
+    border: 2px dashed #3498db;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+.thongtinlienhe p{
+    line-height: 1em;
+}
+.thongtinlh p{
+    line-height: 1em;
+}
+
+.corona{
+    display: flex;
+    padding: 40px;
+}
+.corona .corona1{
+    text-align: center;
+}
+.corona .corona2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.congnghe{
+    padding-left: 30px;
+    border-left: 4px solid hsl(188, 99%, 51%);
+}

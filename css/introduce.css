@@ -1,0 +1,96 @@
+
+main{
+    margin-top: 7rem;
+}
+
+.pageName{
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 1rem;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: none;
+}
+.pageName > li + li:before {
+    padding: 0 5px;
+    color: #bbb;
+    content: " / ";
+}
+.pageName #nameCty{
+    color: #00a559;
+    display: inline;
+    text-transform: capitalize;
+    /* font-size: 13px; */
+    text-transform: uppercase;
+}
+.introducePage{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.introducePage .noidungPage p img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    margin: 0 0 10px;
+}
+
+.introducePage .noidungPage p em{
+    text-align: center;
+}
+
+.introducePage .noidungPage .p1{
+    text-align: center;
+}
+.introducePage .noidungPage .p3{
+    margin: 0 0 10px;
+}
+.introducePage .noidungPage .p3 img{
+    width: 90%;
+}
+.introducePage .title_Name {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.introducePage .noidungPage .image {
+  text-align: center;
+    
+ }
+.introducePage .noidungPage .image img{
+   padding-left: 0;
+   
+}
+
+.introducePage .noidungPage .nameImg{
+    text-align: center;
+ }
+ .thongtinlh {
+    padding-top: 2rem;
+    border-top: 1px solid #aaaa;
+ }
+ .introducePage .noidungPage .trungtam{
+    color: #27ae60;
+ }
+ .introducePage .noidungPage .hotline strong{
+    color: #e74c3c;;
+ }
+
+ .introducePage .sharezalo img{ 
+    height: 20px;
+    padding-left: 1rem;
+ }
+
+ @media screen and (max-width:767px) {
+    main{
+        margin-top: 0;
+    }
+ }
